@@ -1,0 +1,57 @@
+[debug] [2025-02-06T00:30:44.134Z] ----------------------------------------------------------------------
+[debug] [2025-02-06T00:30:44.135Z] Command:       /usr/local/bin/firebase /home/dener/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2025-02-06T00:30:44.135Z] CLI Version:   13.29.3
+[debug] [2025-02-06T00:30:44.135Z] Platform:      linux
+[debug] [2025-02-06T00:30:44.135Z] Node Version:  v18.5.0
+[debug] [2025-02-06T00:30:44.135Z] Time:          Wed Feb 05 2025 21:30:44 GMT-0300 (GMT-03:00)
+[debug] [2025-02-06T00:30:44.136Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-06T00:30:44.283Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-06T00:30:44.284Z] > authorizing via signed-in user (dener.gimenes@magazineluiza.com.br)
+[debug] [2025-02-06T00:30:44.284Z] [iam] checking project qualidade2025 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-02-06T00:30:44.285Z] Checked if tokens are valid: true, expires at: 1738804740846
+[debug] [2025-02-06T00:30:44.285Z] Checked if tokens are valid: true, expires at: 1738804740846
+[debug] [2025-02-06T00:30:44.285Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/qualidade2025:testIamPermissions [none]
+[debug] [2025-02-06T00:30:44.286Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/qualidade2025:testIamPermissions x-goog-quota-user=projects/qualidade2025
+[debug] [2025-02-06T00:30:44.286Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/qualidade2025:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-02-06T00:30:45.368Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/qualidade2025:testIamPermissions 200
+[debug] [2025-02-06T00:30:45.368Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/qualidade2025:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-02-06T00:30:45.369Z] Checked if tokens are valid: true, expires at: 1738804740846
+[debug] [2025-02-06T00:30:45.369Z] Checked if tokens are valid: true, expires at: 1738804740846
+[debug] [2025-02-06T00:30:45.369Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/qualidade2025 [none]
+[debug] [2025-02-06T00:30:45.979Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/qualidade2025 200
+[debug] [2025-02-06T00:30:45.979Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/qualidade2025 {"projectId":"qualidade2025","projectNumber":"555901480335","displayName":"qualidade2025","name":"projects/qualidade2025","resources":{"hostingSite":"qualidade2025"},"state":"ACTIVE","etag":"1_c1c93adb-4a76-4b0f-ad7b-1e4427ebbaa7"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 15.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-02-06T00:30:49.777Z] Checked if tokens are valid: true, expires at: 1738804740846
+[debug] [2025-02-06T00:30:49.777Z] Checked if tokens are valid: true, expires at: 1738804740846
+[debug] [2025-02-06T00:30:49.777Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/qualidade2025/sites/qualidade2025 [none]
+[debug] [2025-02-06T00:30:51.304Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/qualidade2025/sites/qualidade2025 200
+[debug] [2025-02-06T00:30:51.304Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/qualidade2025/sites/qualidade2025 {"name":"projects/qualidade2025/sites/qualidade2025","defaultUrl":"https://qualidade2025.web.app","appId":"1:555901480335:web:0546059609a1c8c6e02ffa","type":"DEFAULT_SITE"}
+[info] You are using Node.js 18.5.0. For Next.js, Node.js version "^18.18.0 || ^19.8.0 || >= 20.0.0" is required.
+
+[info] Building a Cloud Function to run this application. This is needed due to:
+[info]  • Image Optimization
+[info] 
+[debug] [2025-02-06T00:30:51.580Z] Checked if tokens are valid: true, expires at: 1738804740846
+[debug] [2025-02-06T00:30:51.581Z] Checked if tokens are valid: true, expires at: 1738804740846
+[debug] [2025-02-06T00:30:51.581Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/qualidade2025/sites/qualidade2025 [none]
+[debug] [2025-02-06T00:30:52.606Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/qualidade2025/sites/qualidade2025 200
+[debug] [2025-02-06T00:30:52.606Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/qualidade2025/sites/qualidade2025 {"name":"projects/qualidade2025/sites/qualidade2025","defaultUrl":"https://qualidade2025.web.app","appId":"1:555901480335:web:0546059609a1c8c6e02ffa","type":"DEFAULT_SITE"}
+[debug] [2025-02-06T00:31:00.520Z] Error: Command failed: npm i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:820:11)
+    at Object.execSync (node:child_process:891:15)
+    at execSync (pkg/prelude/bootstrap.js:2111:30)
+    at prepareFrameworks (/home/dener/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/frameworks/index.js:371:42)
+    at async deploy (/home/dener/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/deploy/index.js:58:13)
+[error] 
+[error] Error: An unexpected error has occurred.
